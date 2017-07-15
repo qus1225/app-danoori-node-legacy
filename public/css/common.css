@@ -1,10 +1,13 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+
 html {
   font-size: 100%;
 }
 body {
   font-size: 15px;
   font-size: 0.9375rem;
-  font-family: "Open sans", Helvetica, Arial, sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
   color: #666666;
   padding: 0;
 }
@@ -224,54 +227,33 @@ a:hover {
 
 
 **********************************************************************/
-#head {
-  background: #f4f4f4 url(../images/bg_head.jpg) top center;
+.key-visual{
+  background: #f4f4f4 url(../images/main.jpg) top center;
   background-size: cover;
-  color: #7C7C7C;
-  padding: 30px 0 35px 0;
+
+  padding-top: 6px;
+  background-position-y: -160px;
+  background-repeat: no-repeat;
 }
-#head img.img-circle {
-  display: block;
-  width: 140px;
-  height: 140px;
-  overflow: hidden;
-  border: 9px solid rgba(0, 0, 0, 0.05);
-  margin: 0 auto;
+
+.key-visual .title {
+  text-align: center;
+  font-family: 'Nanum Brush Script', serif;
+  font-weight: bold;
+  font-size: 66px;
+  color: #585151;
+
+
 }
-#head .title {
-  font-family: Alice, Georgia, serif;
+
+.key-visual .title .slogan {
+
   font-size: 49px;
-  font-size: 3.0625rem;
+  color: #3a9a3a;
 }
-#head .title a {
-  text-decoration: none;
-  color: #333333;
-}
-#head .tagline {
-  display: block;
-  font-size: 14px;
-  font-size: 0.875rem;
-  line-height: 1.2em;
-  color: #7C7C7C;
-  margin: 5px 0 0;
-}
-#head .tagline b {
-  font-weight: normal;
-}
-#head .tagline a {
-  color: #5E5E5E;
-}
-.home #head {
-  padding: 90px 0;
-}
-.home #head .title {
-  font-size: 49px;
-  font-size: 3.0625rem;
-}
-.home #head .tagline {
-  font-size: 16px;
-  font-size: 1rem;
-  margin: 15px 0 0;
+
+.home .key-visual {
+  height: 600px;
 }
 /*********************************************************************
 
