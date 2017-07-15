@@ -14,7 +14,7 @@ jQuery(document).ready(function($) {
 		} else {
 			my_nav.removeClass( 'stick' );
 		}   
-	};gi
+	};
 	
 	// run our function on load
 	sticky_navigation();
@@ -22,7 +22,6 @@ jQuery(document).ready(function($) {
 	// and run it again every time you scroll
 	$(window).scroll(function() {
 		 sticky_navigation();
-		 initio_parallax_animation();
 	});
 
 });
