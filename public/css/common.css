@@ -124,6 +124,7 @@ a.anchor {
 
 .section#main-rooms .room-desc {
   margin: 10px 0;
+  min-height: 120px;
 }
 
 .section#main-rooms .room-thumbnail {
@@ -274,6 +275,8 @@ a:hover {
   font-weight: bold;
   font-size: 66px;
   color: var(--main-color);
+  margin-bottom: 0px;
+  padding-bottom: 16px;
 }
 
 .key-visual .title .slogan {
