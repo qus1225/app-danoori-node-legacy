@@ -26,6 +26,13 @@
     font-size: 20px;
 }
 
+.room .reservation-btn {
+    margin-top: 32px;
+    border-radius: 4px;
+    font-size: 20px;
+    color: #fff;
+}
+
 #slides {
     text-align: center;
 

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <% include ../layout/header_resources %>
+	<link rel="stylesheet" href="/css/room.css">
+</head>
+<body>
+
+	<% include ../layout/header_contents %>
+	<div class="container">
+		<div class="col-sm-8 col-sm-offset-2">
+			<div class="room">
+				<div class="header">
+					<p class="title">전경</p>
+					<p class="desc">
+						다누리의 전경입니다.
+					</p>
+
+				</div>
+				<div class="images" id="slides">
+					<div class="item" style="background-image: url('/images/rooms/landscape_01.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/landscape_02.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/landscape_03.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/landscape_04.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/landscape_05.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/landscape_06.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/landscape_07.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/landscape_08.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/landscape_09.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/landscape_10.jpg')"></div>
+					<button class="slidesjs-previous slidesjs-navigation btn-default">&lt;</button>
+					<button class="slidesjs-next slidesjs-navigation btn-default">&gt;</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<% include ../layout/footer_contents %>
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<% include ../layout/footer_resources %>
+</body>
+</html>

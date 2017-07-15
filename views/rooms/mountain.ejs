@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <% include ../layout/header_resources %>
+	<link rel="stylesheet" href="/css/room.css">
+</head>
+<body>
+
+	<% include ../layout/header_contents %>
+	<div class="container">
+		<div class="col-sm-8 col-sm-offset-2">
+			<div class="room">
+				<div class="header">
+					<p class="title">산방</p>
+					<p class="desc">
+						'산방'은 2층에 위치해 따뜻한 햇살이 드는 방으로
+						<br>
+						보성의 따뜻하고 넉넉한 풍경을 맘껏 감상하실 수 있는 테라스와
+						오붓하게 차를 즐기실 수 있는 티테이블이 준비된 특별한 방이예요. ^^
+					</p>
+
+				</div>
+				<div class="images" id="slides">
+					<div class="item" style="background-image: url('/images/rooms/mountain_01.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/mountain_02.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/mountain_03.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/mountain_04.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/mountain_05.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/mountain_06.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/mountain_07.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/mountain_08.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/mountain_09.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/mountain_10.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/mountain_11.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/mountain_12.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/mountain_13.jpg')"></div>
+					<button class="slidesjs-previous slidesjs-navigation btn-default">&lt;</button>
+					<button class="slidesjs-next slidesjs-navigation btn-default">&gt;</button>
+				</div>
+				<div class="facilities">
+					<p class="title">구비시설</p>
+					<p>TV, 에어컨, 온풍기, 냉장고, 전기밥솥, 커피포트, 인덕션, 전기쿠커, 냄비 등 조리기구, 헤어드라이어, 침대, 샤워부스,
+						수건, 샴푸 등 세면도구, 무선인터넷 가능</p>
+				</div>
+				<a href="/reservation" class="btn-md btn btn-success reservation-btn">예약하기</a>
+			</div>
+		</div>
+	</div>
+
+	<% include ../layout/footer_contents %>
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<% include ../layout/footer_resources %>
+</body>
+</html>

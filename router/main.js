@@ -3,6 +3,13 @@ module.exports = function(app)
   app.get('/',function(req,res){
     res.render('index')
   });
+
+  app.get('/rooms/landscapes',function(req,res){
+    res.render('rooms/landscapes')
+  });
+  app.get('/rooms/facilities',function(req,res){
+    res.render('rooms/facilities')
+  });
   app.get('/rooms/flower',function(req,res){
     res.render('rooms/flower')
   });

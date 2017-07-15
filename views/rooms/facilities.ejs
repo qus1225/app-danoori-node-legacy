@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <% include ../layout/header_resources %>
+	<link rel="stylesheet" href="/css/room.css">
+</head>
+<body>
+
+	<% include ../layout/header_contents %>
+	<div class="container">
+		<div class="col-sm-8 col-sm-offset-2">
+			<div class="room">
+				<div class="header">
+					<p class="title">편의시설</p>
+					<p class="desc text-left">
+						<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+						실내 바베큐장
+						<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+						야외테이블
+						<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+						전자레인지
+					</p>
+				</div>
+				<div class="images" id="slides">
+					<div class="item" style="background-image: url('/images/rooms/facility_barbecue_01.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/facility_barbecue_02.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/facility_barbecue_03.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/facility_barbecue_04.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/facility_barbecue_05.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/facility_barbecue_06.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/facility_barbecue_07.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/facility_bench_01.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/facility_bench_02.jpg')"></div>
+					<div class="item" style="background-image: url('/images/rooms/facility_microoven_01.jpg')"></div>
+					<button class="slidesjs-previous slidesjs-navigation btn-default">&lt;</button>
+					<button class="slidesjs-next slidesjs-navigation btn-default">&gt;</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<% include ../layout/footer_contents %>
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<% include ../layout/footer_resources %>
+</body>
+</html>
