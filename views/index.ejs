@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="kr">
 <head>
-  <% include ./layout/header_resources.ejs %>
+  <% include ./layout/header_resources %>
 	<link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body class="home">
-	<% include ./layout/header %>
+	<% include ./layout/header_contents %>
 
 	<main id="main">
 
@@ -23,42 +23,42 @@
 				<h2 class="section-title"><span>Rooms</span></h2>
 				<div class="row">
 					<div class="col-sm-6 col-md-3">
-						<h3 class="text-center">꽃이슬</h3>
+						<h3 class="room-title">꽃이슬</h3>
 						<div class="room-thumbnail flower img-rounded"></div>
 						<div class="room-desc">
 							육각형의 돔 형식으로 지어진 독특한 침실구조,
 							깔끔한 최신식 주방, 창밖에는 보성의 청정자연이 한눈에 들어오는 1층 테라스를 이용하실 수 있는 예쁜 방이예요.
 						</div>
-						<p class="text-center"><a href="" class="btn btn-action">더보기</a></p>
+						<p class="text-center"><a href="/rooms/flower" class="btn btn-action">더보기</a></p>
 					</div>
 					<div class="col-sm-6 col-md-3">
-						<h3 class="text-center">달빛</h3>
+						<h3 class="room-title">달빛</h3>
 						<div class="room-thumbnail moon img-rounded"></div>
 						<i class="fa fa-address-book" aria-hidden="true"></i>
 						<div class="room-desc">
 							깔끔한 최신식 주방을 갖추고 있고, 가족끼리 단란한 시간을 보내기에 좋은 깔끔하고 예쁜 방입니다.
 						</div>
-						<p class="text-center"><a href="" class="btn btn-action">더보기</a></p>
+						<p class="text-center"><a href="/rooms/moon" class="btn btn-action">더보기</a></p>
 					</div>
 					<div class="col-sm-6 col-md-3">
-						<h3 class="text-center">산</h3>
+						<h3 class="room-title">산</h3>
 						<div class="room-thumbnail mountain img-rounded"></div>
 						<div class="room-desc">
 							2층에 위치해 따뜻한 햇살이 드는 방으로
 							보성의 따뜻하고 넉넉한 풍경을 맘껏 감상하실 수 있는 테라스와
 							오붓하게 차를 즐기실 수 있는 티테이블이 준비된 특별한 방이예요.
 						</div>
-						<p class="text-center"><a href="" class="btn btn-action">더보기</a></p>
+						<p class="text-center"><a href="/rooms/mountain" class="btn btn-action">더보기</a></p>
 					</div>
 					<div class="col-sm-6 col-md-3">
-						<h3 class="text-center">별</h3>
+						<h3 class="room-title">별</h3>
 						<div class="room-thumbnail star img-rounded"></div>
 						<div class="room-desc">
 							2층에 위치해 따뜻한 햇살이 드는 방으로
 							가족끼리 단란한 시간을 보내기에도,
 							특별한 날 연인끼리 분위기를 잡기에도 좋은 방입니다.
 						</div>
-						<p class="text-center"><a href="" class="btn btn-action">더보기</a></p>
+						<p class="text-center"><a href="/rooms/star" class="btn btn-action">더보기</a></p>
 					</div>
 				</div>
 			</div> <!-- / section -->
@@ -168,9 +168,9 @@
 
 	</main>
 
-	<% include ./layout/footer %>
+	<% include ./layout/footer_contents %>
 
 	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
-  <% include ./layout/footer_resources.ejs %>
+  <% include ./layout/footer_resources %>
 </body>
 </html>

@@ -1,0 +1,51 @@
+.room {
+    text-align: center;
+}
+
+.room .header .title {
+    text-align: center;
+    font-family: 'Nanum Brush Script', serif;
+    font-weight: bold;
+    font-size: 66px;
+    color: #5176ca;
+}
+
+.room .header .desc {
+    text-align: center;
+}
+
+.room .facilities {
+    border: 1px solid gray;
+    padding: 14px 0 8px;
+    margin: 0 36px;
+}
+
+.room .facilities .title {
+    color: #5176ca;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#slides {
+    text-align: center;
+
+}
+
+#slides .item {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+#slides .btn-default{
+    margin: 7px 4px 14px;
+    padding: 0px 12px;
+    font-size: 12px;
+    border-radius: 4px;
+    color: gray;
+    font-weight: bold;
+}
+#slides .btn-default:hover{
+    color: #fff;
+    background-color: gray;
+}
