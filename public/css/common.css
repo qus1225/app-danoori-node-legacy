@@ -14,9 +14,18 @@ body {
   font-family: "Nanum Gothic", sans-serif;
   color: var(--main-color);
   padding: 0;
+  background-color: #fdfffc;
+  word-break: keep-all;
+  line-height: 24px;
 }
 .topspace {
   margin-top: 40px;
+}
+a.anchor {
+  display: block;
+  position: relative;
+  top: -142px;
+  visibility: hidden;
 }
 /*********************************************************************
 
@@ -112,6 +121,30 @@ body {
   background-color: #ffffff;
   color: #000000;
 }
+
+.section#main-rooms .room-desc {
+  margin: 10px 0;
+}
+
+.section#main-rooms .room-thumbnail {
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+}
+
+.section#main-rooms .room-thumbnail.flower {
+  background-image: url(../images/rooms/thumbnail_flower.jpg);
+}
+.section#main-rooms .room-thumbnail.moon {
+  background-image: url(../images/rooms/thumbnail_moon.jpg);
+}
+.section#main-rooms .room-thumbnail.mountain {
+  background-image: url(../images/rooms/thumbnail_mountain.jpg);
+}
+.section#main-rooms .room-thumbnail.star {
+  background-image: url(../images/rooms/thumbnail_star.jpg);
+}
+
 /****************************************************************************************
 
 
@@ -301,16 +334,18 @@ img {
 }
 .btn-action {
   font-weight: bold;
-  background: transparent!important;
+  background: transparent;
   border: 1px solid #333;
   text-shadow: none;
+  padding: 8px 18px;
+  border-radius: 4px;
 }
 .btn-action:hover,
 .btn-action:focus,
 .btn-action:active,
 .btn-action.active {
-  color: #bd1550;
-  border-color: #bd1550;
+  color: #fff;
+  background-color: var(--main-color);
 }
 .btn-lg {
   padding: 15px 60px;
@@ -505,9 +540,9 @@ img {
   position: absolute;
   height: 4px;
   top: .53em;
-  width: 400%;
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc;
+  width: 800%;
 }
 .section-title span:before,
 .entry-title span:before {
@@ -732,6 +767,7 @@ footer.entry-meta .meta-in {
   padding: 30px 0 14px 0;
   font-size: 12px;
   color: #999;
+  margin-top: 34px;
 }
 #footer a {
   color: #ccc;
