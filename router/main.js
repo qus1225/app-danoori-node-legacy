@@ -4,6 +4,10 @@ module.exports = function(app)
     res.render('index')
   });
 
+  app.get('/reservation',function(req,res){
+    res.render('reservation')
+  });
+
   app.get('/rooms/landscapes',function(req,res){
     res.render('rooms/landscapes')
   });

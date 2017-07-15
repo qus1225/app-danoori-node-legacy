@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <% include ./layout/header_resources %>
+	<link rel="stylesheet" href="/css/room.css">
+</head>
+<body>
+
+	<% include ./layout/header_contents %>
+	<div class="container">
+		<div class="col-sm-8 col-sm-offset-2">
+			<div class="room">
+				<div class="header">
+					<p class="title">예약하기</p>
+					<p class="desc">
+						원하는 날짜의 객실을 선택하면 예약화면으로 이동합니다.
+					</p>
+				</div>
+				<div style="margin:0px;padding:0px;overflow:hidden">
+					<iframe src="http://www.yapen.co.kr/external?ypIdx=20501" style="border: none; width: 100%; height: 600px;"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<% include ./layout/footer_contents %>
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<% include ./layout/footer_resources %>
+</body>
+</html>
